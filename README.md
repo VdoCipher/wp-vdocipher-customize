@@ -20,7 +20,7 @@
 <h4><code>vdocipher_annotate_postprocess</code></h4>
 <p>Use this filter to display custom user information - after the vdocipher plugin has processed {name}, {email}, {username}, {id}, {ip}, and {date}</p>
 <h4><code>vdocipher_modify_otp_request</code></h4>
-<p>Use this to send additional OTP body specifications, as can be found here:https://dev.vdocipher.com/api/docs/book/playbackauth/reqbody.html</p>
+<p>Use this to send additional OTP body specifications, as can be found in the <a href="https://dev.vdocipher.com/api/docs/book/playbackauth/reqbody.html" target="_blank">Server API docs</a></p>
 
 <h2>Use Cases</h2>
 <p>The following class should always be included:<code>classes/vdocipher-customize-essentials.php</code>. It enqueues the files <code>js/vdocipherapiready.js</code> and <code>styles/overlay.css</code>. You can add all custom css in the <code>overlay.css</code> file. Make sure that all css classes are preceded by <code>.vc-container</code> selector</p>
@@ -37,4 +37,4 @@
     Chapter name and Chapter time in seconds are separated by comma, different chapter values are separated by semi-colons.
     </li>
 </ol>
-<p><<strong>Please use only one of these two functions</strong>These two functions <code>insert_chapters</code> and <code>insert_chapters_with_names</code> are presented here for completeness. If there is any code here that you do not require, you are free to remove it. We have implemented the child theme - theme framework architecture, so that you can freely extend the VdoCipher plugin without having to worry about breaking changes when the main VdoCipher plugin updates</p>
+<p><strong>Please use only one of these two functions</strong>These two functions <code>insert_chapters</code> and <code>insert_chapters_with_names</code> are presented here for completeness. If there is any code here that you do not require, you are free to remove it. We have implemented the child theme - theme framework architecture, so that you can freely extend the VdoCipher plugin without having to worry about breaking changes when the main VdoCipher plugin updates</p>
