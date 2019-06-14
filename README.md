@@ -1,6 +1,7 @@
 <h1>Extend VdoCipher plugin</h1>
 
-<p>Using this plugin you can extend the VdoCipher WordPress plugin. This plugin requires the VdoCipher WordPress plugin to be installed.</p>
+<p>Using this plugin you can extend the VdoCipher WordPress plugin. This plugin requires the VdoCipher WordPress plugin version 1.26 or more to be installed.</p>
+<p>We have implemented the child theme - theme framework architecture, so that you can freely extend the VdoCipher plugin without having to worry about breaking changes when the main VdoCipher plugin updates.</p>
 <p>In this plugin, we provide functions for two use cases:</p>
 <ul>
   <li>Adding Chapters links over the player, so that user can skip ahead to the relevant time in the video</li>
@@ -37,4 +38,4 @@
     Chapter name and Chapter time in seconds are separated by comma, different chapter values are separated by semi-colons.
     </li>
 </ol>
-<p><strong>Please use only one of these two functions</strong>These two functions <code>insert_chapters</code> and <code>insert_chapters_with_names</code> are presented here for completeness. If there is any code here that you do not require, you are free to remove it. We have implemented the child theme - theme framework architecture, so that you can freely extend the VdoCipher plugin without having to worry about breaking changes when the main VdoCipher plugin updates</p>
+<p><strong>Please use only one of these two functions</strong>. These functions <code>insert_chapters</code> and <code>insert_chapters_with_names</code> are presented here for completeness. If there is any code here that you do not require, you are free to remove it.</p>
